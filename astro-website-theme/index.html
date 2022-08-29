@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css" />
+    <title>Astro Crash Course</title>
+  </head>
+  <body>
+    <header class="header">
+      <div class="container">
+        <div class="logo">
+          <a href="index.html">
+            <img src="img/logo.svg" alt="" />
+          </a>
+        </div>
+        <nav>
+          <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="blog.html">Blog</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+    <section class="showcase">
+      <div class="showcase-text">
+        <h1>Welcome To The Astro Crash Course!</h1>
+        <p>
+          Build super fast HTML-first websites using your favorite JavaScript
+          frameworks
+        </p>
+      </div>
+      <div class="showcase-img">
+        <img class="logos" src="img/framework-logos.png" alt="" />
+        <img class="logos-small" src="img/framework-logos-small.png" alt="" />
+      </div>
+
+      <p class="showcase-demo">
+        <small>This is a demo website used for the YouTube crash course</small>
+      </p>
+    </section>
+
+    <section class="features">
+      <div class="container">
+        <div class="card">
+          <h3>Zero JavaScript Runtime</h3>
+          <p>
+            Astro renders HTML on the server and strips away any remaining,
+            unused JavaScript.
+          </p>
+        </div>
+        <div class="card">
+          <h3>The Power of Islands</h3>
+          <p>
+            Need interactive UI? Load individual, non-blocking component islands
+            in parallel.
+          </p>
+        </div>
+        <div class="card">
+          <h3>Lazy-Loading Islands</h3>
+          <p>
+            Components only hydrate when they scroll into view. If you don't see
+            it, Astro won't load it.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <section class="page-content">
+      <div class="container">
+        <h2>Get Started With Astro</h2>
+        <p>
+          Get a new Astro project up and running locally with our helpful
+          create-astro CLI wizard!
+        </p>
+        <!-- Tabs -->
+        <div class="tabs">
+          <ul class="tabs-header">
+            <li class="default-tab">NPM</li>
+            <li>PNPM</li>
+            <li>YARN</li>
+          </ul>
+          <ul class="tabs-content">
+            <li class="tab">
+              <code>$ npm create astro@latest</code>
+            </li>
+            <li class="tab">
+              <code>$ pnpm create astro@latest</code>
+            </li>
+            <li class="tab">
+              <code>$ yarn create astro</code>
+            </li>
+          </ul>
+        </div>
+
+        <h3>Start Building</h3>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta ipsum
+          deserunt inventore ut voluptate, officia maiores repellat tenetur
+          praesentium omnis est ex tempora a necessitatibus reiciendis at et
+          dignissimos. Ipsam eius consequuntur cupiditate aperiam porro, esse
+          laborum impedit nesciunt ut voluptatum assumenda aspernatur libero
+          iusto error molestias dolorum, necessitatibus labore?
+        </p>
+      </div>
+    </section>
+
+    <footer class="footer">
+      <div class="container">
+        <div>
+          <h3>Astro</h3>
+          <p>
+            This is a demo website to show how the Astro framework works. Visit
+            the <a href="https://astro.build">official website</a> to learn
+            more.
+          </p>
+        </div>
+        <div>
+          <h3>Links</h3>
+          <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Blog</a></li>
+          </ul>
+        </div>
+      </div>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
